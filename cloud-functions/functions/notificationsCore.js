@@ -79,7 +79,7 @@ exports.createDriverRequestNotification = (accepted) => {
     let body = "Você agora pode oferecer caronas!";
     if(!accepted){
         title = "Seu pedido foi negado!";
-        body = "Nossa equipe decidiu deferir seu pedido para ser motorista!";
+        body = "Nossa equipe decidiu negar seu pedido para ser motorista!";
     }
     var not = {
         title: title,
