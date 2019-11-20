@@ -1,0 +1,127 @@
+name: ulift
+description: App para carona em ambientes acadêmicos
+authors:
+- Ariane Amorim <ariane7532@gmail.com>
+- Eduardo Amaral <eduardoroamaral@gmail.com>
+- Henrique Silva <rabelohenry@gmail.com>
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 0.0.3+3
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  simple_animations:
+  intl:
+  animated_text_kit:
+  flutter_masked_text:
+  firebase_core:
+  firebase_analytics:
+  firebase_auth:
+  after_layout:
+  cloud_firestore:
+  flutter_spinkit:
+  google_maps_flutter:
+  flutter_google_places:
+  geocoder:
+  google_maps_webservice:
+  geolocator:
+  flutter_secure_storage:
+  fluro:
+  font_awesome_flutter:
+  image_cropper:
+  image_picker:
+  firebase_storage:
+  cached_network_image:
+  flushbar:
+  flutter_datetime_picker:
+  numberpicker:
+  geohash:
+  clustering_google_maps:
+  carousel_slider:
+  rect_getter:
+  shimmer:
+  flutter_speed_dial:
+  flutter_polyline_points:
+  photo_view:
+  onesignal_flutter:
+  flutter_local_notifications:
+  flutter_udid:
+  smooth_star_rating:
+  quick_actions:
+  android_intent:
+  url_launcher:
+  firebase_crashlytics:
+  connectivity:
+  ntp:
+  pimp_my_button:
+    git:
+      url: git://github.com/Norbert515/pimp_my_button.git
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_launcher_icons:
+  flutter_test:
+    sdk: flutter
+  test: any
+  flutter_driver:
+    sdk: flutter
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/icon/icon.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "images/icon/icon-adaptive.png"
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
