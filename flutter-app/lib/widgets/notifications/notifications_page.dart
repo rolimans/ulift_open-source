@@ -100,7 +100,7 @@ class _NotificationsPageState extends State<NotificationsPage> {
                                   padding: EdgeInsets.symmetric(vertical: 10),
                                 ),
                                 Text(
-                                  "Nenhuma notifcação no momento!",
+                                  "Nenhuma notificação no momento!",
                                   style: TextStyle(fontSize: 20),
                                   textAlign: TextAlign.center,
                                 )
