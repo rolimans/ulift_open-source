@@ -31,32 +31,36 @@ In order to get the app up and running you have to follow these steps:
  - Your Flutter app files are located at the folder *flutter-app*
  - In the files located at the *flutter-app* folder replace the following with the respective info:
  
-<code>YOUR GOOGLE MAPS API<br>
-YOUR ONESIGNAL API<br>
-YOUR FIREBASE STORAGE URL<br>
-YOUR FIREBASE CLOUD FUNCTIONS URL<br>
-YOUR GOOGLESERVICE JSON HERE *(file*)<br>
-YOUR GOOGLESERVICE INFO PLIST HERE (*file*)<br>
-YOUR URL SCHEME HERE</code>
+```
+YOUR GOOGLE MAPS API
+YOUR ONESIGNAL API
+YOUR FIREBASE STORAGE URL
+YOUR FIREBASE CLOUD FUNCTIONS URL
+YOUR GOOGLESERVICE JSON HERE (*file*)
+YOUR GOOGLESERVICE INFO PLIST HERE (*file*)
+YOUR URL SCHEME HERE
+```
 
 - Configure Cloud Functions at firebase. The functions you need are in the *cloud-functions* folder.
 - In the files located at the *cloud-functions* folder replace the following with the respective info:
 
-<code>YOUR GOOGLE MAPS API<br>
+```
+YOUR GOOGLE MAPS API
 YOUR PROJECT
-</code>
+```
 
 - Setup a Node JS server to run the `index.js` alongside it's project files located at the *server-functions* folder.
 - In the files located at the *server-functions* folder replace the following with the respective info:
 
-<code>YOUR GOOGLE SERVICE KEY FIREBASE HERE (*file*)<br>
-YOUR TELEGRAM API KEY<br>
-YOUR ONESIGNAL USER AUTH KEY<br>
-YOUR ONESIGNAL APP AUTH KEY<br>
-YOUR ONESIGNAL APP ID<br>
-YOUR DATABASE URL<br>
+```
+YOUR GOOGLE SERVICE KEY FIREBASE HERE (*file*)
+YOUR TELEGRAM API KEY
+YOUR ONESIGNAL USER AUTH KEY
+YOUR ONESIGNAL APP AUTH KEY
+YOUR ONESIGNAL APP ID
+YOUR DATABASE URL
 YOUR ONESIGNAL ANDROID CHANNEL ID
-</code>
+```
 
 - [Finnally add your SHA-1 fingerprintin your firebase project.](https://support.google.com/firebase/answer/9137403?hl=en&ref_topic=6400762)
 
