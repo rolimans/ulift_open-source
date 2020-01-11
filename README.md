@@ -60,6 +60,7 @@ YOUR ONESIGNAL APP AUTH KEY
 YOUR ONESIGNAL APP ID
 YOUR DATABASE URL
 YOUR ONESIGNAL ANDROID CHANNEL ID
+YOUR BOT PASSWORD
 ```
 
 - [Finnally add your SHA-1 fingerprint in your firebase project.](https://support.google.com/firebase/answer/9137403?hl=en&ref_topic=6400762)
