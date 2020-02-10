@@ -13,7 +13,7 @@ ULift offers security to users, the app access is made through login, being rest
 This app was developed as an undergraduate thesis at [CEFET-MG - Campus V (Divinópolis)](http://www.divinopolis.cefetmg.br/)  by:
 
 [Ariane Amorim](http://lattes.cnpq.br/5002582904802285),
-[Eduardo Amaral](https://linktr.ee/rolimans),
+[Eduardo Amaral](https://rolimans.dev),
 [Henrique Silva Rabelo](http://lattes.cnpq.br/2015063976359486).
 
 The students were oriented by the professor [Alisson Marques](http://lattes.cnpq.br/3856358583630209) and co-oriented by [Leonardo Gomes]( http://lattes.cnpq.br/7811891165596111).
