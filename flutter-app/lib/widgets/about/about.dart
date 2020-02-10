@@ -166,7 +166,7 @@ class _AboutScreenState extends State<AboutScreen> {
                     size: 20,
                   ),
                   onPressed: () {
-                    openUrl("https://amarall.com");
+                    openUrl("https://rolimans.dev");
                   },
                 ),
                 title: Column(
