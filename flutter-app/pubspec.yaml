@@ -39,7 +39,7 @@ dependencies:
   image_cropper:
   image_picker:
   firebase_storage:
-  cached_network_image:
+  cached_network_image: ^2.0.0-rc
   flushbar:
   flutter_datetime_picker:
   numberpicker:
